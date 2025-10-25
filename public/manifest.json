@@ -1,0 +1,14 @@
+{
+  "name": "VibeMatch: A Social Music Game",
+  "description": "VibeMatch: A Social Music Game is a Base Mini App built with Zara.",
+  "image": "https://dummyimage.com/1200x628/0a0b0d/ffffff.png&text=OG",
+  "external_url": "https://8c258b04-a9d7-4e8c-b64f-63400dbf870f.vercel.app",
+  "properties": {
+    "app": {
+      "name": "VibeMatch: A Social Music Game",
+      "description": "VibeMatch: A Social Music Game is a Base Mini App built with Zara.",
+      "url": "https://8c258b04-a9d7-4e8c-b64f-63400dbf870f.vercel.app",
+      "icon": "https://0co.to/images/zara-2.png"
+    }
+  }
+}

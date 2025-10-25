@@ -10,8 +10,8 @@
     "iconUrl": "https://vibematch.fun/icon.png",
     "splashImageUrl": "https://vibematch.fun/splash.png",
     "splashBackgroundColor": "#0a1929",
-    "homeUrl": "https://vibematch.fun",
-    "webhookUrl": "https://vibematch.fun/api/webhook",
+    "homeUrl": "https://app-0dbf870f-38r2.vercel.app",
+    "webhookUrl": "https://app-0dbf870f-38r2.vercel.app/api/webhook",
     "subtitle": "Social Music Game",
     "description": "Guess the tune, earn rewards, and flaunt your music taste on Base. Challenge friends, unlock badges, and climb the leaderboard!",
     "screenshotUrls": [
@@ -20,7 +20,13 @@
       "https://vibematch.fun/screenshot3.png"
     ],
     "primaryCategory": "social",
-    "tags": ["music", "game", "social", "base", "onchain"],
+    "tags": [
+      "music",
+      "game",
+      "social",
+      "base",
+      "onchain"
+    ],
     "heroImageUrl": "https://vibematch.fun/hero.png",
     "tagline": "Guess the tune, earn rewards",
     "ogTitle": "VibeMatch - Social Music Game",
