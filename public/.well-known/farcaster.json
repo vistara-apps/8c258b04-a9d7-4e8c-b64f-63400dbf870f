@@ -1,0 +1,30 @@
+{
+  "accountAssociation": {
+    "header": "VibeMatch requires account verification to link your Farcaster identity to your game profile.",
+    "payload": "eyJkb21haW4iOiJ2aWJlbWF0Y2guZnVuIn0",
+    "signature": "0x"
+  },
+  "frame": {
+    "version": "1",
+    "name": "VibeMatch",
+    "iconUrl": "https://vibematch.fun/icon.png",
+    "splashImageUrl": "https://vibematch.fun/splash.png",
+    "splashBackgroundColor": "#0a1929",
+    "homeUrl": "https://vibematch.fun",
+    "webhookUrl": "https://vibematch.fun/api/webhook",
+    "subtitle": "Social Music Game",
+    "description": "Guess the tune, earn rewards, and flaunt your music taste on Base. Challenge friends, unlock badges, and climb the leaderboard!",
+    "screenshotUrls": [
+      "https://vibematch.fun/screenshot1.png",
+      "https://vibematch.fun/screenshot2.png",
+      "https://vibematch.fun/screenshot3.png"
+    ],
+    "primaryCategory": "social",
+    "tags": ["music", "game", "social", "base", "onchain"],
+    "heroImageUrl": "https://vibematch.fun/hero.png",
+    "tagline": "Guess the tune, earn rewards",
+    "ogTitle": "VibeMatch - Social Music Game",
+    "ogDescription": "Challenge friends and flaunt your music taste on Base",
+    "ogImageUrl": "https://vibematch.fun/og-image.png"
+  }
+}

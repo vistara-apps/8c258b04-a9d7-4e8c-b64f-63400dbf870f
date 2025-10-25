@@ -1,24 +1,27 @@
-import type { Metadata } from 'next'
-import './globals.css'
-import { ThemeProvider } from './components/ThemeProvider'
+import type { Metadata } from "next";
+import "./globals.css";
+import { Providers } from "./components/Providers";
 
 export const metadata: Metadata = {
-  title: 'Base Mini App',
-  description: 'Built with Zara',
-}
+  title: "VibeMatch - Social Music Game",
+  description: "Guess the tune, earn rewards, and flaunt your music taste on Base.",
+  openGraph: {
+    title: "VibeMatch",
+    description: "Guess the tune, earn rewards, and flaunt your music taste on Base.",
+    images: ["/og-image.png"],
+  },
+};
 
 export default function RootLayout({
   children,
-}: {
-  children: React.ReactNode
-}) {
+}: Readonly<{
+  children: React.ReactNode;
+}>) {
   return (
     <html lang="en">
       <body>
-        <ThemeProvider defaultTheme="coinbase">
-          {children}
-        </ThemeProvider>
+        <Providers>{children}</Providers>
       </body>
     </html>
-  )
+  );
 }

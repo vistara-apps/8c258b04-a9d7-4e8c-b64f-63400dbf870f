@@ -1,10 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  experimental: {
-    serverActions: {
-      allowedOrigins: ['localhost:3000'],
-    },
+  reactStrictMode: true,
+  images: {
+    domains: ['vibematch.fun'],
   },
-}
+};
 
-export default nextConfig
+export default nextConfig;
